@@ -38,7 +38,7 @@
         }
 
         &:nth-child(odd) {
-            text-align: left;
+            text-align: right;
             z-index: 1;
             animation: upanddown 0.5s infinite ease-in alternate;
 
@@ -70,10 +70,10 @@
     }
 
     .righTimeline {
-        left: 50%;
+        left: 0%;
 
-        &::after {
-            left: -16px;
-        }
+        // &::after {
+        //     left: -16px;
+        // }
     }
 }
