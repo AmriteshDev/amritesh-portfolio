@@ -9,7 +9,7 @@ const Work = () => {
             <h2>WORK</h2>
             <section>
                 <article>
-                    <Carousel showArrows={false} showIndicators={false} showStatus={false}
+                    <Carousel showIndicators={false} showStatus={false}
                         showThumbs={false} interval={2000} infiniteLoop={true} autoPlay={true} >
                         {
                             data.projects.map((i) => (

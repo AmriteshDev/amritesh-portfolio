@@ -41,6 +41,12 @@
                 object-fit: cover;
             }
 
+            img[alt="MY PORTFOLIO"] {
+                border-radius: 20px;
+                width: 40%;
+                object-fit: contain;
+            }
+
             >aside {
                 width: 60%;
                 display: flex;

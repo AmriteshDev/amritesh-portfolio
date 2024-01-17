@@ -1,26 +1,12 @@
-import React, { useRef } from 'react'
-import { motion, animate } from "framer-motion";
+import React from 'react'
+import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/logo.png"
 const Home = ({ ratio }) => {
 
-    const clientCount = useRef(null);
-    const projectCount = useRef(null);
-    const animationClientConnt = () => {
-        animate(0, 100, {
-            duration: 1,
-            onUpdate: (v) => (clientCount.current.textContent = v.toFixed())
-        }
-        )
-    }
-    const animationProjectConnt = () => {
-        animate(0, 500, {
-            duration: 1,
-            onUpdate: (v) => (projectCount.current.textContent = v.toFixed())
-        }
-        )
-    }
+
+
     const animations = {
         h1: {
             initial: {
@@ -52,7 +38,7 @@ const Home = ({ ratio }) => {
                         Hi, I am <br /> Amritesh Singh
                     </motion.h1>
                     <Typewriter options={{
-                        strings: ["A Full Stack Developer"],
+                        strings: ["A Full Stack Developer..."],
                         autoStart: true,
                         loop: true,
                         cursor: "",
