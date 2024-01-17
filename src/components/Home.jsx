@@ -62,26 +62,12 @@ const Home = ({ ratio }) => {
                         <a href="mailto:amriteshsingh2000n@gmail.com"> Hire Me</a>
                         <a href='#work'>Projects <BsArrowUpRight /></a>
                     </div>
-                    <article>
+                    <article data-special>
                         <p>
-                            +<motion.span ref={clientCount} whileInView={animationClientConnt} >100</motion.span>
+                            Contact
                         </p>
-                        <span>Clients Worldwide</span>
+                        <span>amriteshsingh2000n@gmail.com</span>
                     </article>
-                    <aside>
-                        <article>
-                            <p>
-                                +<motion.span ref={projectCount} whileInView={animationProjectConnt}>500</motion.span>
-                            </p>
-                            <span>Project Made</span>
-                        </article>
-                        <article data-special>
-                            <p>
-                                Contact
-                            </p>
-                            <span>amriteshsingh2000n@gmail.com</span>
-                        </article>
-                    </aside>
                 </div>
             </section>
             <section>

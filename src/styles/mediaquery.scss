@@ -291,12 +291,12 @@
             padding-right: 2rem;
         }
 
-        .rightTimeline {
+        .righTimeline {
             left: 0%;
         }
 
         .leftTimeline,
-        .rightTimeline {
+        .righTimeline {
             &::after {
                 left: 15px;
             }

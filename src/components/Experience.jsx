@@ -6,7 +6,7 @@ const Experience = () => {
             <div className='experienceBox'>
                 {
                     data.experience.map((i) => (
-                        <CompanyTimeLine heading={i.title} date={i.date} key={i.title} />
+                        <CompanyTimeLine heading={i.title} date={i.date} key={i.title} index={i.index} />
 
                     ))
                 }
